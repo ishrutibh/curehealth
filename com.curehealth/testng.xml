@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="browserName" value="chrome"/>
+<parameter name="username" value="John Doe"/>
+<parameter name="password" value="ThisIsNotAPassword"/>
+  <test thread-count="5" name="healthTestNG">
+    <classes>
+      <class name="com.curehealth.BaseClass">
+      <methods>
+      <include name="ALaunchWebSite"/>
+       <include name="BLogin"/>
+        <include name="CApplication"/>
+         <include name="ScreenShot"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- healthTestNG -->
+</suite> <!-- Suite -->

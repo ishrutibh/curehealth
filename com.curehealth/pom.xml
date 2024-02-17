@@ -1,0 +1,30 @@
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.curehealth</groupId>
+  <artifactId>com.curehealth</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+ <dependency>
+  <groupId>org.seleniumhq.selenium</groupId> 
+  <artifactId>selenium-java</artifactId> 
+  <version>3.141.59</version> 
+  </dependency>
+ <dependency>
+  <groupId>io.github.bonigarcia</groupId> 
+  <artifactId>webdrivermanager</artifactId> 
+  <version>4.3.1</version> 
+  </dependency>
+<dependency>
+  <groupId>org.testng</groupId> 
+  <artifactId>testng</artifactId> 
+  <version>7.7.0</version> 
+  </dependency>
+
+<dependency>
+  <groupId>org.apache.logging.log4j</groupId> 
+  <artifactId>log4j-slf4j-impl</artifactId> 
+  <version>2.21.0</version> 
+  <scope>test</scope> 
+  </dependency>
+ </dependencies>
+</project>

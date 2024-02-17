@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="ThisIsNotAPassword"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="username" value="John Doe"/>
+  <test thread-count="5" name="healthTestNG(failed)">
+    <classes>
+      <class name="com.curehealth.BaseClass">
+        <methods>
+          <include name="ScreenShot"/>
+          <include name="quit"/>
+          <include name="CApplication"/>
+        </methods>
+      </class> <!-- com.curehealth.BaseClass -->
+    </classes>
+  </test> <!-- healthTestNG(failed) -->
+</suite> <!-- Failed suite [Suite] -->
